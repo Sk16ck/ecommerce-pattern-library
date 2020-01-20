@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #2D3535;
+
+
+  --font-primary: "Bebas Neue", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
