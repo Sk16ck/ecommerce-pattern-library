@@ -2,4 +2,23 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "Custom Cubes"
+  description:
+    A online store specializing in custom Gamecube controllers.
   font_url: "https://use.typekit.net/amw4slb.css"
+  colors:
+    background: "--color-primary"
+    accent: "--color-accent"
+    patterns:
+      brand.typefaces: "--color-primary"
+  rationales:
+    typefaces.primary: |
+      Museo Sans was chosen to pair with Bebas Neue, having the same thin, clean style to it. Used for body text.
+    typesfaces.secondary: |
+      Bebas Neue is a clean sans serif font that was chosen for its modern, professional look. Used for Headers, Buttons, links
+    colors.primary: |
+      Was chosen to give a good base to the site, have the lighter colors pop off the darker background.
+    colors.secondary: |
+      Was chosen to contrast with the dark background, while still being distinct enough to not get lost in the accent color.
+    colors.accent: |
+      Was chosen to catch the viewers eye on the page. Would be used for buttons, or points of interaction.
