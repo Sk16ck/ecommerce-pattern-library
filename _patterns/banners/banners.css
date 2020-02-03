@@ -1,0 +1,26 @@
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.banner {
+  position: relative;
+  overflow: hidden;
+  max-height: 24em;
+  color: white;
+}
+
+.banner-content {
+  position: absolute;
+  width: 100%;
+  right: 0px;
+  bottom: 75px;
+}
+
+.banner-content img {
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  left: 0px;
+  bottom: 75px;
+}
