@@ -11,5 +11,5 @@ patterns:
   ghost:
     title: "Ghost"
     description: |
-    Ghost button is to be used in a situation where the objective isn't necessary to have the user interact with it.
-    background: "--color-white"
+      Ghost button is to be used in a situation where the objective isn't necessary to have the user interact with it.
+    width: "12em"
