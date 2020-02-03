@@ -22,18 +22,3 @@ patternbot:
           Was chosen to contrast with the dark background, while still being distinct enough to not get lost in the accent color.
           colors.accent: |
           Was chosen to catch the viewers eye on the page. Would be used for buttons, or points of interaction.
-
-          title: "Buttons"
-          description: |
-            Buttons should be used in situations where a dramatic, obvious action is required. Should be primary call-to-action, try not to overuse.
-          patterns:
-            basic:
-              title: "Basic"
-              description: |
-                Default button to use, most effective in front of dark backgrounds.
-              width: "12em"
-            ghost:
-              title: "Ghost"
-              description: |
-              Ghost button is to be used in a situation where the objective isn't necessary to have the user interact with it.
-              background: "--color-accent"
