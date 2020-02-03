@@ -1,0 +1,16 @@
+.card div {
+  border: 5px solid var(--color-accent-dark);
+}
+
+.card:hover div {
+  border: 5px solid var(--color-accent);
+}
+
+p {
+  text-align: center;
+  margin: 0;
+}
+
+.card:hover img {
+  opacity: .5;
+}
