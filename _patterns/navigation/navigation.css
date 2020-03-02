@@ -1,0 +1,45 @@
+/* Breadcrumbs CSS  */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+/* Keeps stuff on one line */
+ul.breadcrumb li {
+  display: inline;
+  color: var(--color-accent);
+}
+
+/* Changes Style for breadcrumbs */
+ul.breadcrumb li a {
+  text-decoration: underline;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+  float: none;
+  margin: 0;
+}
+
+/* Pager CSS */
+/* Sets to one line */
+ul.pager {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+ul.pager li {
+  display: inline;
+  var(--color-white);
+}
+
+.pager a.active {
+  color: var(--color-accent);
+  border-bottom: 3px solid var(--color-accent);
+}
+
+.pager a:hover:not(.active) {
+  text-decoration: none;
+}
