@@ -1,6 +1,14 @@
-<ul class="list-group">
-  <li><a href="#">Browse</a></li>
-  <li><a href="#">Create</a></li>
-  <li><a href="#">Cart</a></li>
-  {% pattern buttons/basic text="Login"}
-</ul>
+<header class="masthead grid">
+  <!-- Nav Logo -->
+  <div class="logo unit xs-1 s-1 m-1 l-1-4 island">
+        <i class="icon i-64"><img src="/images/logo-256.svg" alt=""></i>
+  </div>
+  <nav class="nav unit xs-1 s-1 m-1 l-3-4 island">
+    <ul class="list-group">
+      <li><a href="#">Browse</a></li>
+      <li><a href="#">Create</a></li>
+      <li><a href="#"><i class="icon i-32"><svg><use xlink:href="/images/icons.svg#cart"/></svg></i>Cart</a></li>
+      <li>{% pattern buttons/basic text="Login"%}</li>
+    </ul>
+  </nav>
+</header>

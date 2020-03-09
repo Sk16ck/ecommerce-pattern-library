@@ -1,18 +1,26 @@
-ul {
+.masthead ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--color-primary-light);
+  text-align: right;
 }
 
-li a {
-  display: block;
+.masthead li a {
+  display: inline-block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.masthead li a:hover:not(.active) {
   background-color: #111;
+}
+
+.masthead li {
+  display: inline-block;
+}
+
+.masthead {
+  background-color: var(--color-primary-light);
 }

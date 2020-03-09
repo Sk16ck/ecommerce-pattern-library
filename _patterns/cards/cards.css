@@ -6,7 +6,7 @@
   border: 5px solid var(--color-accent);
 }
 
-p {
+.card p {
   text-align: center;
   margin: 0;
 }
