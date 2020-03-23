@@ -22,3 +22,6 @@ patternbot:
       Was chosen to contrast with the dark background, while still being distinct enough to not get lost in the accent color.
     colors.accent: |
       Was chosen to catch the viewers eye on the page. Would be used for buttons, or points of interaction.
+  layouts:
+    default: |
+      The default should be used for all pages, as all pages contain the components within.
